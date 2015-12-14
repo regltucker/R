@@ -1,0 +1,8 @@
+# R
+name.model <- '
+name of factor =~ v1 + v2 + v3 + vk + vk+1
+'
+name fit model <- cfa(name.model, data = name of attached data set, std.lv = TRUE)
+summary(name fit model, fit.measures = TRUE)
+install.packages(semPlot)
+library(semPlot)
